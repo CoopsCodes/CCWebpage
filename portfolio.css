@@ -4,37 +4,37 @@
 
 .container {
     display: flex;
-    height: calc(100vh - 10px);
-    width: calc(100vw - 10px);
-    border: 1px palevioletred dotted;
-    background: black;
     align-items: center;
     justify-content: center;
+    height: calc(100vh);
+    width: calc(100vw);
+    background-image: linear-gradient(rgba(242, 252, 255, 0.808),rgba(163, 175, 179, 0.842)), url(./images/crumpledpaper.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
-.main-body {
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
-    background: rgb(236, 236, 250);
-}
+/* .main-body {
+    border: 1px black solid;
+} */
 /* and of main border classes */
 
-.profile-image {
+/* .profile-image {
     border-radius: 50%;
     height: 60px;
     width: 60px;
     border: 1px white solid;
     margin-left: 40px; 
-}
-.headline-name {
+} */
+/* .headline-name {
     font-family: 'Orbitron', sans-serif;
     font-size: 50pt;
     color: #DB37DA;
     padding-left: 60px;
-}
+} */
 
 .main-body {
     display: grid;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
     grid-template-rows: repeat(14, 65px);
@@ -45,158 +45,189 @@
     grid-row: 5 / 6;
     grid-column: 2 / 3;
     border: 1px #241823 solid;
+    background: gray;
 }
 .o {
     grid-row: 5 / 6;
     grid-column: 3 / 4;
     border: 1px #241823 solid;
+    background: gray;
 }
 .o2 {
     grid-row: 5 / 6;
     grid-column: 4 / 5;
     border: 1px #241823 solid;
+    background: gray;
 }
 .p {
     grid-row: 5 / 6;
     grid-column: 5 / 6;
     border: 1px #241823 solid;
+    background: gray;
 }
 .e {
     grid-row: 5 / 6;
     grid-column: 6 / 7;
     border: 1px #241823 solid;
+    background: gray;
 }
 .r {
     grid-row: 5 / 6;
     grid-column: 7 / 8;
     border: 1px #241823 solid;
+    background: gray;
 }
 .dash {
     grid-row: 5 / 6;
     grid-column: 8 / 9;
     border: 1px #241823 solid;
+    background: gray;
 }
 .c2 {
     grid-row: 5 / 6;
     grid-column: 9 / 10;
     border: 1px #241823 solid;
+    background: gray;
 }
 .o3 {
     grid-row: 5 / 6;
     grid-column: 10 / 11;
     border: 1px #241823 solid;
+    background: gray;
 }
 .d {
     grid-row: 5 / 6;
     grid-column: 11 / 12;
     border: 1px #241823 solid;
+    background: gray;
 }
 .e2 {
     grid-row: 5 / 6;
     grid-column: 12 / 13;
     border: 1px #241823 solid;
+    background: gray;
 }
 .s {
     grid-row: 5 / 6;
     grid-column: 13 / 14;
     border: 1px #241823 solid;
+    background: gray;
 }
 /* BLOG */
 .B {
     grid-row: 3 / 4;
     grid-column: 4 / 5;
     border: 1px #241823 solid;
+    background: gray;
 }
 .l {
     grid-row: 4 / 5;
     grid-column: 4 / 5;
     border: 1px #241823 solid;
+    background: gray;
 }
 .g {
     grid-row: 6 / 7;
     grid-column: 4 / 5;
     border: 1px #241823 solid;
+    background: gray;
 }
 /* WELCOME */
 .W {
     grid-row: 2 / 3;
     grid-column: 9 / 10;
     border: 1px #241823 solid;
+    background: gray;
 }
 .e3 {
     grid-row: 3 / 4;
     grid-column: 9 / 10;
     border: 1px #241823 solid;
+    background: gray;
 }
 .l2 {
     grid-row: 4 / 5;
     grid-column: 9 / 10;
     border: 1px #241823 solid;
+    background: gray;
 }
 .o4 {
     grid-row: 6 / 7;
     grid-column: 9 / 10;
     border: 1px #241823 solid;
+    background: gray;
 }
 .m {
     grid-row: 7 / 8;
     grid-column: 9 / 10;
     border: 1px #241823 solid;
+    background: gray;
 }
 .e4 {
     grid-row: 8 / 9;
     grid-column: 9 / 10;
     border: 1px #241823 solid;
+    background: gray;
 }
 /* PROJECTS */
 .P2 {
     grid-row: 8 / 9;
     grid-column: 5 / 6;
     border: 1px #241823 solid;
+    background: gray;
 }
 .r2 {
     grid-row: 8 / 9;
     grid-column: 6 / 7;
     border: 1px #241823 solid;
+    background: gray;
 }
 .o5 {
     grid-row: 8 / 9;
     grid-column: 7 / 8;
     border: 1px #241823 solid;
+    background: gray;
 }
 .j {
     grid-row: 8 / 9;
     grid-column: 8 / 9;
     border: 1px #241823 solid;
+    background: gray;
 }
 .c3 {
     grid-row: 8 / 9;
     grid-column: 10 / 11;
     border: 1px #241823 solid;
+    background: gray;
 }
 .t {
     grid-row: 8 / 9;
     grid-column: 11 / 12;
     border: 1px #241823 solid;
+    background: gray;
 }
 .s2 {
     grid-row: 8 / 9;
     grid-column: 12 / 13;
     border: 1px #241823 solid;
+    background: gray;
 }
 /* LORE */
 .L3 {
     grid-row: 7 / 8;
     grid-column: 7 / 8;
     border: 1px #241823 solid;
+    background: gray;
 }
 .r3 {
     grid-row: 9 / 10;
     grid-column: 7 / 8;
     border: 1px #241823 solid;
+    background: gray;
 }
 .e5 {
     grid-row: 10 / 11;
     grid-column: 7 / 8;
     border: 1px #241823 solid;
+    background: gray;
 }
