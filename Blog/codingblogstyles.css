@@ -1,0 +1,156 @@
+@import "./blogbottommenubutton.css";
+* {
+      margin: 0;
+}
+h1 {
+      font-family: 'Raleway', sans-serif;
+      padding-top: 50px;
+      padding-bottom: 10px;
+      color: #4C4452;
+}
+h2 {
+      font-family: 'Raleway', sans-serif;
+      color: #4C4452;
+      padding: 20px;
+}
+h3 {
+      font-family: 'Raleway', sans-serif;
+      color: #4C4452;
+      padding: 20px;
+}
+h4 {
+      font-family: 'Raleway', sans-serif;
+      color: #4C4452;
+      padding: 20px;
+}
+h5 {
+      font-family: 'Raleway', sans-serif;
+      color: #4C4452;
+      padding: 20px;
+}
+h6 {
+      font-family: 'Raleway', sans-serif;
+      color: #4C4452;
+      padding: 20px;
+}
+p {
+      font-family: 'Raleway', sans-serif;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      color: #2A322E;
+}
+li {
+      font-family: 'Raleway', sans-serif;
+      color: #2A322E;
+}
+th {
+      font-family: 'Raleway', sans-serif;
+      color: #2A322E;
+}
+td {
+      font-family: 'Raleway', sans-serif;
+      color: #2A322E;
+}
+body {
+      background: mintcream;
+}
+#newdate {
+      text-align: center;
+}
+#Ruby {
+      border-bottom: 2px dotted rgb(0, 0, 0);
+      color: crimson;
+}
+#Sem1 {
+      border-bottom: 2px dotted rgb(0, 0, 0);
+      color: rgb(68, 68, 68);
+}
+#HTML {
+      border-bottom: 2px dotted rgb(0, 0, 0);
+      color: orange;
+}
+#CSS {
+      border-bottom: 2px dotted rgb(0, 0, 0);
+      color: royalblue;
+}
+#Rails {
+      border-bottom: 2px dotted rgb(0, 0, 0);
+      color: rgb(255, 40, 40);
+}
+#flexboxform {
+      display: flex;
+}
+#flexcontainer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      max-width: 1000px;
+      min-width: 100px;
+      margin: 0 auto;
+      padding: 0 5px;
+}
+.navbar {
+      display: flex;
+      justify-content: center;
+      align-content: flex-start;
+      position: fixed;
+      background-color: #333;
+      width: 100vw;
+}
+.navbar a {
+      display: inline-block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: all 0.7s ease;
+}
+.navbar a:hover {
+      background:mintcream;
+}
+@media screen and (max-width: 450px) {
+      .navbar {
+            display: none;
+      }
+}
+.bottombar {
+      overflow: hidden;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      max-width: 700px;
+      min-width: 100px;
+      padding: 0 5px;
+      text-align: center;
+}
+.bottombar a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+.bottombar a:hover {
+      background:mintcream;
+      color: black;
+}
+.helloK {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+}
+.presovid {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+}
+table#tab1 {
+      background-color: rgba(206, 227, 253, 0.705);
+      color: rgb(78, 1, 72);
+      border: darkslategrey;
+      border-style: ridge;
+      margin-left: auto;
+      margin-right: auto;
+}
