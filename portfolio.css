@@ -8,7 +8,7 @@
     justify-content: center;
     height: calc(100vh);
     width: calc(100vw);
-    background-image: linear-gradient(rgba(242, 252, 255, 0.808),rgba(163, 175, 179, 0.842)), url(./images/crumpledpaper.jpeg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.842),rgba(211, 211, 211, 0.842)), url(./images/cement.jpeg);
     background-position: center;
     background-size: cover;
 }
