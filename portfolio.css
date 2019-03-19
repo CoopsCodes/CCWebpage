@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
     margin: 0;
-    /* font-size: 100px; */
+    font-size: 100px;
 }
 .container {
     display: flex;
@@ -15,24 +15,6 @@
     background-size: cover;
 }
 
-/* .main-body {
-    border: 1px black solid;
-} */
-/* and of main border classes */
-
-/* .profile-image {
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
-    border: 1px white solid;
-    margin-left: 40px; 
-} */
-/* .headline-name {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 50pt;
-    color: #DB37DA;
-    padding-left: 60px;
-} */
 .container {
     display: flex;
     height: 100vh;
