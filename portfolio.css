@@ -3,6 +3,7 @@
 * {
     margin: 0;
     font-size: 100px;
+    font-family: 'Schoolbell', cursive;
 }
 .container {
     display: flex;
@@ -48,7 +49,6 @@
     align-items: center;
     color: #E00021;
     font-size: 110px;
-    font-family: 'Schoolbell', cursive;
 }
 .o {
     grid-row: 4 / 5;
@@ -59,7 +59,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 .o2 {
     grid-row: 4 / 5;
@@ -70,7 +69,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 .p {
     grid-row: 4 / 5;
@@ -81,7 +79,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 .e {
     grid-row: 4 / 5;
@@ -92,7 +89,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 .r {
     grid-row: 4 / 5;
@@ -103,7 +99,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 .dash {
     grid-row: 4 / 5;
@@ -114,7 +109,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 .c2 {
     grid-row: 4 / 5;
@@ -126,7 +120,6 @@
     align-items: center;
     color: #E00021;
     z-index: 10;
-    font-family: 'Schoolbell', cursive;
 }
 .o3 {
     grid-row: 4 / 5;
@@ -137,7 +130,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 .d {
     grid-row: 4 / 5;
@@ -148,7 +140,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 .e2 {
     grid-row: 4 / 5;
@@ -159,7 +150,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 .s {
     grid-row: 4 / 5;
@@ -170,7 +160,6 @@
     justify-content: center;
     align-items: center;
     color: #E00021;
-    font-family: 'Schoolbell', cursive;
 }
 /* BLOG */
 .numbertwo {
@@ -192,7 +181,6 @@
     justify-content: center;
     align-items: center;
     font-size: 80px;
-    font-family: 'Schoolbell', cursive;
 }
 .l {
     grid-row: 3 / 4;
@@ -203,7 +191,6 @@
     justify-content: center;
     align-items: center;
     font-size: 80px;
-    font-family: 'Schoolbell', cursive;
 }
 .g {
     grid-row: 5 / 6;
@@ -214,7 +201,6 @@
     justify-content: center;
     align-items: center;
     font-size: 80px;
-    font-family: 'Schoolbell', cursive;
 }
 /* WELCOME */
 .numberone {
@@ -236,7 +222,6 @@
     justify-content: center;
     align-items: center;
     font-size: 90px;
-    font-family: 'Schoolbell', cursive;
 }
 .e3 {
     grid-row: 2 / 3;
@@ -246,7 +231,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .l2 {
     grid-row: 3 / 4;
@@ -257,7 +241,6 @@
     justify-content: center;
     align-items: center;
     font-size: 80px;
-    font-family: 'Schoolbell', cursive;
 }
 .o4 {
     grid-row: 5 / 6;
@@ -267,7 +250,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .m {
     grid-row: 6 / 7;
@@ -277,7 +259,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .e4 {
     grid-row: 7 / 8;
@@ -287,7 +268,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 /* PROJECTS */
 .numberfive {
@@ -308,7 +288,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .r2 {
     grid-row: 7 / 8;
@@ -318,7 +297,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .o5 {
     grid-row: 7 / 8;
@@ -328,7 +306,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .j {
     grid-row: 7 / 8;
@@ -338,7 +315,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .c3 {
     grid-row: 7 / 8;
@@ -348,7 +324,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .t {
     grid-row: 7 / 8;
@@ -358,7 +333,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .s2 {
     grid-row: 7 / 8;
@@ -368,7 +342,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 /* LORE */
 .numberfour {
@@ -389,7 +362,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .r3 {
     grid-row: 8 / 9;
@@ -399,7 +371,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
 .e5 {
     grid-row: 9 / 10;
@@ -409,5 +380,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Schoolbell', cursive;
 }
