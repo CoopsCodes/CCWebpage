@@ -1,0 +1,88 @@
+#ps-button {
+    color: #241823;
+    font-size: 20pt;
+    transition: 0.4s;
+}
+#ps-button:hover {
+    transform: scale(1.2);
+}
+#xbox-button {
+    color: #241823;
+    font-size: 30pt;
+    transition: 0.4s;
+}
+#xbox-button:hover {
+    transform: scale(1.2);
+}
+#insta-button {
+    color: #241823;
+    font-size: 40pt;
+    transition: 0.4s;
+}
+#insta-button:hover {
+    transform: scale(1.2);
+}
+#twitter-button {
+    color: #241823;
+    font-size: 39pt;
+    transition: 0.4s;
+}
+#twitter-button:hover {
+    transform: scale(1.2);
+}
+#linkedin-button {
+    color: #241823;
+    font-size: 45pt;
+    transition: 0.4s;
+}
+#linkedin-button:hover {
+    transform: scale(1.2);
+}
+#rebel-button {
+    color: #241823;
+    font-size: 51pt;
+    transition: 0.4s;
+}
+#rebel-button:hover {
+    transform: scale(1.2);
+}
+#js-button {
+    color: #241823;
+    font-size: 41pt;
+    transition: 0.4s;
+}
+#js-button:hover {
+    transform: scale(1.2);
+}
+#github-button {
+    color: #241823;
+    font-size: 45pt;
+    transition: 0.4s;
+}
+#github-button:hover {
+    transform: scale(1.2);
+}
+#css-button {
+    color: #241823;
+    font-size: 37pt;
+    transition: 0.4s;
+}
+#css-button:hover {
+    transform: scale(1.2);
+}
+#html-button {
+    color: #241823;
+    font-size: 30pt;
+    transition: 0.4s;
+}
+#html-button:hover {
+    transform: scale(1.2);
+}
+#codepen-button {
+    color: #241823;
+    font-size: 20pt;
+    transition: 0.4s;
+}
+#codepen-button:hover {
+    transform: scale(1.2);
+}
