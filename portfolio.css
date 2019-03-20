@@ -8,8 +8,8 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: calc(100vh);
-    width: calc(100vw);
+    height: 100vh;
+    width: 100vw;
     background-image: linear-gradient(rgba(255, 255, 255, 0.863),rgba(255, 255, 255, 0.842)), url(./images/cement.jpeg);
     background-position: center;
     background-size: cover;
@@ -30,6 +30,23 @@
     color: #E00021;
 
 }
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 0.75;
+    }
+    100% { 
+        opacity: 1.0;
+    }
+}
 /* COOPER-CODES */
 .numberthree {
     grid-row: 4 / 5;
@@ -37,9 +54,10 @@
     font-size: 15px;
     z-index: 10;
     display: flex;
-    margin-left: 2px;
+    /* margin-left: 2px; */
     font-family: 'Roboto', sans-serif;
     background: white;
+    border: 1px #241823 solid;
 }
 .C {
     grid-row: 4 / 5;
@@ -51,229 +69,435 @@
     color: #E00021;
     font-size: 110px;
     z-index: 10;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
 }
 .o {
     grid-row: 4 / 5;
     grid-column: 3 / 4;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    animation-name: pulsate; 
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+    /* animation-delay: 0.5s; */
+}
+.box1 {
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+    border: 1px #241823 solid;
+    background: white;
 }
 .o2 {
     grid-row: 4 / 5;
     grid-column: 4 / 5;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box2 {
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
+    border: 1px #241823 solid;
+    background: white;
 }
 .p {
     grid-row: 4 / 5;
     grid-column: 5 / 6;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box3 {
+    grid-row: 4 / 5;
+    grid-column: 5 / 6;
+    border: 1px #241823 solid;
+    background: white;
 }
 .e {
     grid-row: 4 / 5;
     grid-column: 6 / 7;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box4 {
+    grid-row: 4 / 5;
+    grid-column: 6 / 7;
+    border: 1px #241823 solid;
+    background: white;
 }
 .r {
     grid-row: 4 / 5;
     grid-column: 7 / 8;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box5 {
+    grid-row: 4 / 5;
+    grid-column: 7 / 8;
+    border: 1px #241823 solid;
+    background: white;
 }
 .dash {
     grid-row: 4 / 5;
     grid-column: 8 / 9;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box6 {
+    grid-row: 4 / 5;
+    grid-column: 8 / 9;
+    border: 1px #241823 solid;
+    background: white;
 }
 .c2 {
     grid-row: 4 / 5;
     grid-column: 9 / 10;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
     z-index: 10;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box7 {
+    grid-row: 4 / 5;
+    grid-column: 9 / 10;
+    border: 1px #241823 solid;
+    background: white;
 }
 .o3 {
     grid-row: 4 / 5;
     grid-column: 10 / 11;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box8 {
+    grid-row: 4 / 5;
+    grid-column: 10 / 11;
+    border: 1px #241823 solid;
+    background: white;
 }
 .d {
     grid-row: 4 / 5;
     grid-column: 11 / 12;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box9 {
+    grid-row: 4 / 5;
+    grid-column: 11 / 12;
+    border: 1px #241823 solid;
+    background: white;
 }
 .e2 {
     grid-row: 4 / 5;
     grid-column: 12 / 13;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box10 {
+    grid-row: 4 / 5;
+    grid-column: 12 / 13;
+    border: 1px #241823 solid;
+    background: white;
 }
 .s {
     grid-row: 4 / 5;
     grid-column: 13 / 14;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E00021;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box11 {
+    grid-row: 4 / 5;
+    grid-column: 13 / 14;
+    border: 1px #241823 solid;
+    background: white;
 }
 /* BLOG */
 .numbertwo {
     grid-row: 2 / 3;
     grid-column: 4 / 5;
     font-size: 15px;
-    font: ;
     z-index: 10;
     display: flex;
-    margin-left: 2px;
+    /* margin-left: 2px; */
     font-family: 'Roboto', sans-serif;
     background: white;
+    border: 1px #241823 solid;
 }
 .B {
     grid-row: 2 / 3;
     grid-column: 4 / 5;
-    border: 1px #241823 solid;
-
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 80px;
     z-index: 10;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
 }
+.B:hover {
+
+}
+/* @keyframes test {
+    from {color: #241823;}
+    to {color: yellow;}
+} */
 .l {
+    grid-row: 3 / 4;
+    grid-column: 4 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box12 {
     grid-row: 3 / 4;
     grid-column: 4 / 5;
     border: 1px #241823 solid;
     background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
 }
 .g {
     grid-row: 5 / 6;
     grid-column: 4 / 5;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 80px;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box13 {
+    grid-row: 5 / 6;
+    grid-column: 4 / 5;
+    border: 1px #241823 solid;
+    background: white;
 }
 /* WELCOME */
 .numberone {
     grid-row: 1 / 2;
     grid-column: 9 / 10;
     font-size: 15px;
-    font: ;
     z-index: 10;
     display: flex;
-    margin-left: 2px;
+    /* margin-left: 2px; */
     font-family: 'Roboto', sans-serif;
     background: white;
+    border: 1px #241823 solid;
 }
 .W {
     grid-row: 1 / 2;
     grid-column: 9 / 10;
-    border: 1px #241823 solid;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 90px;
+    font-size: 100px;
     z-index: 10;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
 }
 .e3 {
     grid-row: 2 / 3;
     grid-column: 9 / 10;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box14 {
+    grid-row: 2 / 3;
+    grid-column: 9 / 10;
+    border: 1px #241823 solid;
+    background: white;
 }
 .l2 {
     grid-row: 3 / 4;
     grid-column: 9 / 10;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 80px;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box15 {
+    grid-row: 3 / 4;
+    grid-column: 9 / 10;
+    border: 1px #241823 solid;
+    background: white;
 }
 .o4 {
     grid-row: 5 / 6;
     grid-column: 9 / 10;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box16 {
+    grid-row: 5 / 6;
+    grid-column: 9 / 10;
+    border: 1px #241823 solid;
+    background: white;
 }
 .m {
     grid-row: 6 / 7;
     grid-column: 9 / 10;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box17 {
+    grid-row: 6 / 7;
+    grid-column: 9 / 10;
+    border: 1px #241823 solid;
+    background: white;
 }
 .e4 {
     grid-row: 7 / 8;
     grid-column: 9 / 10;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box18 {
+    grid-row: 7 / 8;
+    grid-column: 9 / 10;
+    border: 1px #241823 solid;
+    background: white;
 }
 /* PROJECTS */
 .numberfive {
@@ -282,73 +506,145 @@
     font-size: 15px;
     z-index: 10;
     display: flex;
-    margin-left: 2px;
+    /* margin-left: 2px; */
     font-family: 'Roboto', sans-serif;
-    z-index: 10;
     background: white;
+    border: 1px #241823 solid;
 }
 .P2 {
     grid-row: 7 / 8;
     grid-column: 5 / 6;
-    border: 1px #241823 solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 100px;
     z-index: 10;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
 }
 .r2 {
     grid-row: 7 / 8;
     grid-column: 6 / 7;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box19 {
+    grid-row: 7 / 8;
+    grid-column: 6 / 7;
+    border: 1px #241823 solid;
+    background: white;
 }
 .o5 {
     grid-row: 7 / 8;
     grid-column: 7 / 8;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box20 {
+    grid-row: 7 / 8;
+    grid-column: 7 / 8;
+    border: 1px #241823 solid;
+    background: white;
 }
 .j {
     grid-row: 7 / 8;
     grid-column: 8 / 9;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box21 {
+    grid-row: 7 / 8;
+    grid-column: 8 / 9;
+    border: 1px #241823 solid;
+    background: white;
 }
 .c3 {
     grid-row: 7 / 8;
     grid-column: 10 / 11;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box22 {
+    grid-row: 7 / 8;
+    grid-column: 10 / 11;
+    border: 1px #241823 solid;
+    background: white;
 }
 .t {
     grid-row: 7 / 8;
     grid-column: 11 / 12;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box23 {
+    grid-row: 7 / 8;
+    grid-column: 11 / 12;
+    border: 1px #241823 solid;
+    background: white;
 }
 .s2 {
     grid-row: 7 / 8;
     grid-column: 12 / 13;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box24 {
+    grid-row: 7 / 8;
+    grid-column: 12 / 13;
+    border: 1px #241823 solid;
+    background: white;
 }
 /* LORE */
 .numberfour {
@@ -357,20 +653,30 @@
     font-size: 15px;
     z-index: 10;
     display: flex;
-    margin-left: 2px;
+    /* margin-left: 2px; */
     font-family: 'Roboto', sans-serif;
     background: white;
+    border: 1px #241823 solid;
 
 }
 .L3 {
     grid-row: 6 / 7;
     grid-column: 7 / 8;
-    border: 1px #241823 solid;
+    font-size: 15px;
+    z-index: 10;
+    display: flex;
+    /* margin-left: 2px; */
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 10;
-    
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+
 }
 /* .L3:hover {
     text-decoration: none;
@@ -380,18 +686,40 @@
 .r3 {
     grid-row: 8 / 9;
     grid-column: 7 / 8;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box25 {
+    grid-row: 8 / 9;
+    grid-column: 7 / 8;
+    border: 1px #241823 solid;
+    background: white;
 }
 .e5 {
     grid-row: 9 / 10;
     grid-column: 7 / 8;
-    border: 1px #241823 solid;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box26 {
+    grid-row: 9 / 10;
+    grid-column: 7 / 8;
+    border: 1px #241823 solid;
+    background: white;
 }
