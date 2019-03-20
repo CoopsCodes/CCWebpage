@@ -96,6 +96,7 @@ body {
       position: fixed;
       background-color: #333;
       width: 100vw;
+      font-family: 'Raleway', sans-serif;
 }
 .navbar a {
       display: inline-block;
