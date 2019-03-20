@@ -71,8 +71,9 @@
     z-index: 10;
     opacity: 1.0;
     animation-name: pulsate; 
-    animation: pulsate 5s ease-in;
+    animation: pulsate 4s linear;
     animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .o {
     grid-row: 4 / 5;
@@ -82,11 +83,12 @@
     align-items: center;
     color: #E00021;
     animation-name: pulsate; 
-    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-    animation: pulsate 5s ease-in;
+    animation: pulsate 4s linear;
     animation-iteration-count: 1;
     z-index: 1;
-    /* animation-delay: 0.5s; */
+    opacity: 0;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 .box1 {
     grid-row: 4 / 5;
@@ -102,11 +104,13 @@
     align-items: center;
     color: #E00021;
     opacity: 1.0;
-    animation-name: pulsate; 
-    animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation-name: pulsate;
+    animation: pulsate 4s linear;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 .box2 {
     grid-row: 4 / 5;
@@ -123,10 +127,13 @@
     color: #E00021;
     opacity: 1.0;
     animation-name: pulsate; 
-    animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    /* animation-duration: infinite; */
+    animation: pulsate 4s linear;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }
 .box3 {
     grid-row: 4 / 5;
@@ -143,10 +150,13 @@
     color: #E00021;
     opacity: 1.0;
     animation-name: pulsate; 
-    animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    /* animation-duration: infinite; */
+    animation: pulsate 4s linear;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 .box4 {
     grid-row: 4 / 5;
@@ -163,10 +173,13 @@
     color: #E00021;
     opacity: 1.0;
     animation-name: pulsate; 
-    animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    /* animation-duration: infinite; */
+    animation: pulsate 4s linear;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
 }
 .box5 {
     grid-row: 4 / 5;
@@ -184,9 +197,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 2.75s;
+    animation-fill-mode: forwards;
 }
 .box6 {
     grid-row: 4 / 5;
@@ -205,9 +221,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 3.25s;
+    animation-fill-mode: forwards;
 }
 .box7 {
     grid-row: 4 / 5;
@@ -225,9 +244,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 3.75s;
+    animation-fill-mode: forwards;
 }
 .box8 {
     grid-row: 4 / 5;
@@ -245,9 +267,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 4.25s;
+    animation-fill-mode: forwards;
 }
 .box9 {
     grid-row: 4 / 5;
@@ -265,9 +290,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 4.75s;
+    animation-fill-mode: forwards;
 }
 .box10 {
     grid-row: 4 / 5;
@@ -285,9 +313,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 5.25s;
+    animation-fill-mode: forwards;
 }
 .box11 {
     grid-row: 4 / 5;
@@ -319,8 +350,11 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
+    opacity: 0;
+    animation-delay: 7.2s;
+    animation-fill-mode: forwards;
 }
 .B:hover {
 
@@ -340,9 +374,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 7.4s;
+    animation-fill-mode: forwards;
 }
 .box12 {
     grid-row: 3 / 4;
@@ -361,9 +398,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
 }
 .box13 {
     grid-row: 5 / 6;
@@ -395,8 +435,11 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
+    opacity: 0;
+    animation-delay: 5.25s;
+    animation-fill-mode: forwards;
 }
 .e3 {
     grid-row: 2 / 3;
@@ -408,9 +451,13 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 5.45s;
+    animation-fill-mode: forwards;
+
 }
 .box14 {
     grid-row: 2 / 3;
@@ -429,9 +476,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
 }
 .box15 {
     grid-row: 3 / 4;
@@ -449,9 +499,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 6.2s;
+    animation-fill-mode: forwards;
 }
 .box16 {
     grid-row: 5 / 6;
@@ -469,9 +522,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 6.4s;
+    animation-fill-mode: forwards;
 }
 .box17 {
     grid-row: 6 / 7;
@@ -489,9 +545,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
 }
 .box18 {
     grid-row: 7 / 8;
@@ -523,8 +582,11 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
+    opacity: 0;
+    animation-delay: 8.3s;
+    animation-fill-mode: forwards;
 }
 .r2 {
     grid-row: 7 / 8;
@@ -536,9 +598,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 8.4s;
+    animation-fill-mode: forwards;
 }
 .box19 {
     grid-row: 7 / 8;
@@ -556,9 +621,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 8.55s;
+    animation-fill-mode: forwards;
 }
 .box20 {
     grid-row: 7 / 8;
@@ -576,9 +644,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 9.1s;
+    animation-fill-mode: forwards;
 }
 .box21 {
     grid-row: 7 / 8;
@@ -596,9 +667,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 9.3s;
+    animation-fill-mode: forwards;
 }
 .box22 {
     grid-row: 7 / 8;
@@ -616,9 +690,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 9.4s;
+    animation-fill-mode: forwards;
 }
 .box23 {
     grid-row: 7 / 8;
@@ -636,9 +713,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
 }
 .box24 {
     grid-row: 7 / 8;
@@ -676,6 +756,9 @@
     animation-duration: infinite;
     animation: pulsate 5s ease-in;
     animation-iteration-count: 1;
+    opacity: 0;
+    animation-delay: 10.2s;
+    animation-fill-mode: forwards;
 
 }
 /* .L3:hover {
@@ -696,6 +779,9 @@
     animation: pulsate 5s ease-in;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 10.45s;
+    animation-fill-mode: forwards;
 }
 .box25 {
     grid-row: 8 / 9;
@@ -713,9 +799,12 @@
     opacity: 1.0;
     animation-name: pulsate; 
     animation-duration: infinite;
-    animation: pulsate 5s ease-in;
+    animation: pulsate 5s ease-out;
     animation-iteration-count: 1;
     z-index: 1;
+    opacity: 0;
+    animation-delay: 10.55s;
+    animation-fill-mode: forwards;
 }
 .box26 {
     grid-row: 9 / 10;
@@ -723,6 +812,26 @@
     border: 1px #241823 solid;
     background: white;
 }
+/* .to {
+    grid-row: 8 / 9;
+    grid-column: 11 / 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 2s;
+    opacity: 1.0;
+    animation-name: pulsate; 
+    animation-duration: infinite;
+    animation: pulsate 5s ease-in;
+    animation-iteration-count: 1;
+    z-index: 1;
+}
+.box27 {
+    grid-row: 8 / 9;
+    grid-column: 11 / 12;
+    border: 1px #241823 solid;
+    background: white;
+} */
 
 @media (max-width: 880px) {
     .main-body {
