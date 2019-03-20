@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Schoolbell');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(./mobileLP.css);
 * {
     margin: 0;
     font-size: 100px;
@@ -28,7 +29,6 @@
     bottom: 0;
     right: 30px;
     color: #E00021;
-
 }
 @-webkit-keyframes pulsate {
     0% { 
@@ -722,4 +722,14 @@
     grid-column: 7 / 8;
     border: 1px #241823 solid;
     background: white;
+}
+
+@media (max-width: 880px) {
+    .main-body {
+    display: none;
+
+}
+.bio-box {
+    display: flex;
+}
 }

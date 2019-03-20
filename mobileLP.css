@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    font-family: 'Schoolbell', cursive;
+}
+.bio-box {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    border: 1px blue solid;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 10px;
+    color: #E00021;
+}
+
+.cooper {
+    font-size: 10px;
+    color: #E00021;
+}
+/* .bio {
+    padding: 15px;
+    background: whitesmoke;
+    color: black;
+} */
