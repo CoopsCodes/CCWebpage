@@ -10,21 +10,21 @@
     align-items: center;
     align-content: space-between;
     justify-content: center;
-    border: 1px blue solid;
-}
-
-.navbar {
-    position: fixed;
-    bottom: 10px;
-    color: #E00021;
 }
 
 .cooper {
-    font-size: 10px;
+    font-size: 60px;
     color: #E00021;
 }
-/* .bio {
+.mobile-bio {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
     padding: 15px;
     background: whitesmoke;
     color: black;
-} */
+    font-size: 10px;
+}
+p {
+    font-size: 10px;
+}
