@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    font-family: 'Schoolbell', cursive;
+}
+.projectsbox {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/crumpledpaper.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
