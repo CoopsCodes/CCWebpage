@@ -37,14 +37,20 @@
 }
 .innercontainer {
     display: flex;
+    flex-wrap: wrap;
     height: 100vh;
     width: 100vw;
     align-items: center; 
     justify-content: space-evenly;
 }
+@media screen and (max-width: 450px) {
+    .image {
+          display: none;
+    }
+}
 .image {
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
     border-radius: 50%;
     background-image: url(./images/yoda.jpeg);
     background-position: center;
@@ -56,4 +62,6 @@
     height: 70vh;
     width: 70vh;
     border: 1px black dotted;
+    background: #353238;
+    color: #ACBDBA;
 }
