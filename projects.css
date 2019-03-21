@@ -10,6 +10,70 @@
     background-image: url(./images/crumpledpaper.jpeg);
     background-position: center;
     background-size: cover;
+    justify-content: flex-end;
+    align-items: center;
+    /* color: #E00021; */
+}
+.form {
+    background: #353238;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 200px;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+    color: #ACBDBA
+}
+
+#submit {
+    background: #ACBDBA;
+    border: 1px pink solid;
+    border-radius: 15px;
+    color: aqua;
+    display: inline-block;
+    font-family: 'Schoolbell', cursive;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+}
+.textbox {
+    margin-right: 10px;
+}
+.innerform {
+    margin: 10px;
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.nameemail {
+    display: flex;
+    margin: 10px;
+    width: 180px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #ACBDBA;
+}
+.topnavbar {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    position: fixed;
+    background-color: #353238;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+}
+.topnavbar a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.7s ease;
+}
+.topnavbar a:hover {
+    background:mintcream;
 }

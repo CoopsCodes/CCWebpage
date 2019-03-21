@@ -54,6 +54,9 @@ td {
 body {
       background: mintcream;
 }
+.main {
+      text-align: center;
+}
 #newdate {
       text-align: center;
 }
