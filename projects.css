@@ -6,7 +6,6 @@
 .form {
     color: #353238;
     background: #ACBDBA;
-    padding: 5px;
     font-size: 20px;
     display: flex;
     text-align: center;
@@ -17,7 +16,6 @@
     padding-bottom: 5px;
     justify-content: center;
     align-items: center;
-    margin: 20px;
 }
 .innerform {
     margin: 10px;
@@ -86,11 +84,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-image: url(./images/crumpledpaper.jpeg);
+    background-image: url("./images/crumpledpaper.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -98,13 +94,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .projects {
     display: flex;
     height: auto;
     width: 100vw;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: center;
     background: pink;
+}
+.blog {
+    margin: 10px;
+}
+.terminalapp {
+    margin: 10px;
+}
+.website {
+    margin: 10px;
+}
+p {
+    margin: 7px;
 }
