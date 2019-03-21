@@ -8,13 +8,37 @@
     width: 100vw;
     flex-direction: column;
     align-items: center;
-    align-content: space-between;
+    align-content: space-around;
     justify-content: center;
 }
-
+.top-navbar {
+    display: none;
+    justify-content: center;
+    align-content: flex-start;
+    position: fixed;
+    background-color: #333;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+}
+.top-navbar a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.7s ease;
+}
+.top-navbar a:hover {
+    background:mintcream;
+}
+@media screen and (max-width: 880px) {
+    .top-navbar {
+        display: flex;
+    }
+}
 .cooper {
     font-size: 60px;
     color: #E00021;
+    margin-bottom: 50px;
 }
 .mobile-bio {
     flex-direction: column;
