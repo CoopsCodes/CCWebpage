@@ -8,8 +8,7 @@
     width: 100vw;
     flex-direction: column;
     align-items: center;
-    align-content: space-around;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .top-navbar {
     display: none;
@@ -38,7 +37,7 @@
 .cooper {
     font-size: 60px;
     color: #E00021;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 .mobile-bio {
     flex-direction: column;
@@ -51,4 +50,6 @@
 }
 p {
     font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

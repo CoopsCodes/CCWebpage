@@ -76,6 +76,18 @@ p {
         opacity: 1.0;
     }
 }
+@media (max-width: 880px) {
+    .main-body {
+    display: none;
+
+    }
+.bio-box {
+    display: flex;
+    }
+.topnavbar {
+    display: flex;
+}
+}
 /* COOPER-CODES */
 .numberthree {
     grid-row: 4 / 5;
@@ -366,13 +378,6 @@ p {
     animation-delay: 4.6s;
     animation-fill-mode: forwards;
 }
-.B:hover {
-
-}
-/* @keyframes test {
-    from {color: #241823;}
-    to {color: yellow;}
-} */
 .l {
     grid-row: 3 / 4;
     grid-column: 4 / 5;
@@ -734,10 +739,6 @@ p {
     border: 1px #241823 solid;
 
 }
-/* .numberfour:hover {
-    background: #E00021;
-    color: #E00021;
-} */
 .L3 {
     grid-row: 6 / 7;
     grid-column: 7 / 8;
@@ -807,15 +808,3 @@ p {
     background: white;
 }
 
-@media (max-width: 880px) {
-    .main-body {
-    display: none;
-
-    }
-.bio-box {
-    display: flex;
-    }
-.topnavbar {
-    display: flex;
-}
-}
