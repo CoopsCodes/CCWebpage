@@ -41,7 +41,7 @@ p {
     position: fixed;
     justify-content: center;
     align-content: center;
-    /* position: fixed; */
+    position: fixed;
     background-color: #353238;
     width: 100vw;
     height: 8vh;

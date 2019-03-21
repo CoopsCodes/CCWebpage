@@ -2,27 +2,19 @@
     margin: 0;
     font-family: 'Schoolbell', cursive;
 }
-.projectsbox {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    background-image: url(./images/crumpledpaper.jpeg);
-    background-position: center;
-    background-size: cover;
-    justify-content: flex-end;
-    align-items: center;
-    /* color: #E00021; */
-}
+
 .form {
     color: #353238;
     background: #ACBDBA;
     padding: 5px;
     font-size: 20px;
     display: flex;
+    text-align: center;
     flex-direction: column;
     width: 100vw;
-    height: 200px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
     justify-content: center;
     align-items: center;
     margin: 20px;
@@ -33,7 +25,9 @@
     flex-wrap: wrap;
     background: #353238;
     width: 100vw;
-    height: 200px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
     justify-content: center;
     align-items: center;
 }
@@ -45,8 +39,9 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 30px;
+    margin: 5px;
     text-decoration: none;
-    width: 100px;
+    width: 160px;
     transition: 0.2s;
 }
 #submit:hover {
@@ -55,13 +50,14 @@
     color: #ACBDBA;
 }
 .textbox {
-    margin-right: 10px;
+    margin: 5px;
 }
 
 .nameemail {
     display: flex;
     margin: 10px;
     width: 180px;
+    margin: 5px;
     flex-direction: column;
     justify-content: space-evenly;
     color: #ACBDBA;
@@ -84,4 +80,31 @@
 }
 .topnavbar a:hover {
     background:mintcream;
+}
+.grandparent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/crumpledpaper.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.projectparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects {
+    display: flex;
+    height: auto;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: pink;
 }
