@@ -111,9 +111,31 @@ body {
 .navbar a:hover {
       background:mintcream;
 }
+.mininavbar {
+      display: none;
+      justify-content: center;
+      align-content: flex-start;
+      position: fixed;
+      background-color: #333;
+      width: 100vw;
+      font-family: 'Raleway', sans-serif;
+}
+.mininavbar a {
+      display: inline-block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: all 0.7s ease;
+}
+.mininavbar a:hover {
+      background:mintcream;
+}
 @media screen and (max-width: 450px) {
       .navbar {
             display: none;
+      }
+      .mininavbar {
+            display: flex;
       }
 }
 .bottombar {
