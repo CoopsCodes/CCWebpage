@@ -46,6 +46,7 @@
     background: #353238;
     border: 1px #ACBDBA solid;
     color: #ACBDBA;
+    box-shadow: #ACBDBA;
 }
 .textbox {
     margin: 5px;
