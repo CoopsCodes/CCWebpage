@@ -65,6 +65,7 @@ p {
 .topnavbar a:hover {
     background:#ACBDBA;
 }
+
 @-webkit-keyframes pulsate {
     0% { 
         opacity: 0;

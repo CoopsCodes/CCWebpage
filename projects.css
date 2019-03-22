@@ -5,7 +5,7 @@
 
 .form {
     color: #353238;
-    background: #ACBDBA;
+    background: rgb(225, 231, 231);
     font-size: 20px;
     display: flex;
     text-align: center;
@@ -30,7 +30,7 @@
     align-items: center;
 }
 #submit {
-    background: #ACBDBA;
+    background: rgb(225, 231, 231);
     color: #353238;
     display: inline-block;
     font-family: 'Schoolbell', cursive;
@@ -45,8 +45,7 @@
 #submit:hover {
     background: #353238;
     border: 1px #ACBDBA solid;
-    color: #ACBDBA;
-    box-shadow: #ACBDBA;
+    color: rgb(225, 231, 231);
 }
 .textbox {
     margin: 5px;
@@ -59,7 +58,7 @@
     margin: 5px;
     flex-direction: column;
     justify-content: space-evenly;
-    color: #ACBDBA;
+    color: rgb(225, 231, 231);
 }
 .topnavbar {
     display: flex;
@@ -104,7 +103,7 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    background: pink;
+    background: rgb(255, 201, 210);
 }
 .blog {
     margin: 10px;
