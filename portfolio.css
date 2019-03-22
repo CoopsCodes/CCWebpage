@@ -28,7 +28,13 @@ p {
     grid-template-columns: repeat(12, 67px);
 }
 .imagetags {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
     font-size: 10px;
+    margin-bottom: 50px;
+    size: 10px;
 }
 .navbar {
     position: fixed;
@@ -76,7 +82,7 @@ p {
         opacity: 1.0;
     }
 }
-@media (max-width: 880px) {
+@media (max-width: 810px) {
     .main-body {
     display: none;
 

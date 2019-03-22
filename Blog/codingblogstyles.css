@@ -2,6 +2,25 @@
 * {
       margin: 0;
 }
+::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: mintcream; 
+      z-index: 5;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #353238; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: mediumvioletred; 
+}
 h1 {
       font-family: 'Raleway', sans-serif;
       padding-top: 50px;
@@ -97,9 +116,10 @@ body {
       justify-content: center;
       align-content: flex-start;
       position: fixed;
-      background-color: #333;
+      background-color: #353238;
       width: 100vw;
       font-family: 'Raleway', sans-serif;
+      z-index: 100;
 }
 .navbar a {
       display: inline-block;
