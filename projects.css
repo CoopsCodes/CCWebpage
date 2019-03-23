@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Schoolbell', cursive;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .form {
@@ -77,7 +77,7 @@
     transition: all 0.7s ease;
 }
 .topnavbar a:hover {
-    background:mintcream;
+    background:rgb(225, 231, 231);
 }
 .grandparent {
     display: flex;
@@ -103,7 +103,7 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    background: rgb(255, 201, 210);
+    background: rgb(225, 231, 231);
 }
 .blog {
     margin: 10px;
