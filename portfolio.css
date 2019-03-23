@@ -39,7 +39,6 @@ p {
     width: 100vw;
     align-items: center;
     justify-content: space-evenly;
-
     color: #353238;
 }
 .navbar {
@@ -57,7 +56,7 @@ p {
     background-color: #353238;
     width: 100vw;
     height: 8vh;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 .topnavbar a {
     display: flex;
@@ -67,6 +66,7 @@ p {
     text-decoration: none;
     transition: all 0.7s ease;
     font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
 }
 .topnavbar a:hover {
     background:rgb(225, 231, 231);
@@ -96,9 +96,11 @@ p {
     }
 .bio-box {
     display: flex;
+    font-family: 'Roboto Mono', monospace;
     }
 .topnavbar {
     display: flex;
+    font-family: 'Roboto Mono', monospace;
 }
 }
 @media (min-width: 700px) {
@@ -110,9 +112,11 @@ p {
     }
     p {
         font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
     }
     .herelink {
         font-size: 15px;
+        font-family: 'Roboto Mono', monospace;
     }
 }
 /* COOPER-CODES */
