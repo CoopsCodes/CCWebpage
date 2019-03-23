@@ -27,7 +27,7 @@
     transition: all 0.7s ease;
 }
 .top-navbar a:hover {
-    background:mintcream;
+    background:rgb(225, 231, 231);
 }
 @media screen and (max-width: 880px) {
     .top-navbar {
@@ -44,9 +44,10 @@
     align-items: center;
     display: flex;
     padding: 15px;
-    background: whitesmoke;
+    background: rgb(225, 231, 231);
     color: black;
     font-size: 10px;
+    margin-bottom: 50px;
 }
 p {
     font-size: 10px;

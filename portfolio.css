@@ -17,6 +17,13 @@
     justify-content: center;
     align-items: center;
 }
+.herelink {
+    text-decoration: none;
+    font-family: 'Schoolbell', cursive;
+    font-size: 10px;
+    text-align: center;
+    color: #E00021;
+}
 p {
     font-family: 'Schoolbell', cursive;
     font-size: 10px;
@@ -32,9 +39,8 @@ p {
     width: 100vw;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 10px;
-    margin-bottom: 50px;
-    size: 10px;
+
+    color: #353238;
 }
 .navbar {
     position: fixed;
@@ -63,7 +69,7 @@ p {
     font-size: 20px;
 }
 .topnavbar a:hover {
-    background:#ACBDBA;
+    background:rgb(225, 231, 231);
 }
 
 @-webkit-keyframes pulsate {
@@ -94,6 +100,20 @@ p {
 .topnavbar {
     display: flex;
 }
+}
+@media (min-width: 700px) {
+    .cooper {
+        font-size: 120px;
+    }
+    .imagetags {
+        font-size: 150px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .herelink {
+        font-size: 15px;
+    }
 }
 /* COOPER-CODES */
 .numberthree {
