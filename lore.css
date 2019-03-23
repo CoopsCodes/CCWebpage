@@ -52,7 +52,15 @@
     color: #353238;
     overflow: auto;
 }
-
+.mobilebio {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 25vh;
+    width: 100vw;
+    background: pink;
+}
 p {
     margin: 10px 5px;
 }
@@ -66,10 +74,14 @@ p {
 }
 @media screen and (max-width: 450px) {
     .bio {
-        height: 100vh;
-        font-size: 13px;
+        display: none;
+        /* height: 100vh;
+        font-size: 13px; */
+    }
+    .mobilebio {
+        display: flex;
     }
     .navbar {
-        display: none;
+        display: flex;
     }
 }
