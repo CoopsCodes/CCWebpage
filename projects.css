@@ -98,8 +98,8 @@
 }
 .projects {
     display: flex;
-    height: auto;
     width: 100vw;
+    height: auto;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
@@ -116,4 +116,12 @@
 }
 p {
     margin: 7px;
+}
+@media screen and (max-width: 450px) {
+    .projects {
+        overflow: auto;
+    }
+    .blog {
+        margin-top: 250px;
+    }
 }
