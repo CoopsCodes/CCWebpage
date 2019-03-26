@@ -823,7 +823,6 @@ p {
     justify-content: center;
     align-items: center;
     transition: width 2s;
-    opacity: 1.0;
     animation-name: pulsate; 
     animation: pulsate 3s ease-out;
     animation-iteration-count: 1;
@@ -838,4 +837,3 @@ p {
     border: 1px #241823 solid;
     background: white;
 }
-
