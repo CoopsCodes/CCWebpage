@@ -1,0 +1,145 @@
+<!DOCTYPE html> <!--this assumes the most recent HTML file-->
+<html> <!--this indicates everything within the tags is read in HTML-->
+    <head> <!--head is for meta data on page-->
+        <title>I'm Coding Biatch!</title> <!--this labels the browser tag-->
+    </head>
+
+    <header id="Article Header">
+            <h1><b>Test Website for CoderAcademy</b></h1>
+            <p style="color: yellowgreen">How disgusting are these colours?! Doesn't it make you miss Geocities?</p>
+            <p style="color: rgb(255, 166, 0)">Just wait till I can do CSS</p>
+            <h4>The list below can be used to take you directly to the section on the page, if you're too lazy to scroll that is haha.</h4>
+            <ul>
+                <li><a href="#Article Header.html">Header</a></li>
+                <li><a href="#Body of Article">Body</a></li>
+                <li><a href="#image">Car</a></li>
+                <li><a href="#beer">Beer</a></li>
+                <li><a href="#Chart within Article">Chart</a></li>
+                <li><a href="#form">Form</a></li>
+                <li><a href="#Footer of Article">Footer</a></li>
+            </ul>
+    </header>
+
+    <body style="background-color:aquamarine"> <!--Style is CSS so i wont be using it a lot here-->
+        <div id="Body of Article"> <!--id marks a linnk within the page for fast travel-->
+        
+            <h3><i>I'll be using this page to play around and hopefully create some templates I can use for Bootcamp</i></h3>
+        
+            <h4>Here is a picture of a car for <u>no absolute reason.</u> (oh look at that underlining)</h4>
+        
+            <a id="image" href="http://www.nissan.com.au/cars-vehicles/gtr/overview" target="_blank"><img src="20160718-01.png" alt="Image of a Nissan Skyline GTR"></a>
+        
+            <p>If you click it, it'll take you to the Skyline website (can i have a GTR now Nissan?) 
+                <br>It also contains an 'alt' attribute that will help google identify what that image is, and to be used for accessability systems. (If you're listening to this website, so sorry for wasting your time.)
+                <br>Or just so people Googling Skylines will find this totally useless geocities inspired webpage.</p>
+            
+        
+            <h3>This is the <b>BODY</b> of this trainwreck.
+                <br>The Body is a great place for text, so here is a copypasta of some inspirational shit I found.</h3>
+            
+            <p><i>"Many that live deserve death. And some that die deserve life. Can you give it to them? Then do not be eager to deal out death in judgement. For even the very wise cannot see all ends."</i><br>- <b>Gandalf</b></p>
+            <p><i>"It is not our part to master all the tides of the world, but to do what is in us for the succor of those years wherein we are set, uprooting the evil in the fields that we know, so that those who live after may have clean earth to till."</i><br>- <b>Gandalf</b></p>
+            <p>He's a pretty smart dude huh! But see how I italicised and made his name bold, who's the smrt one now... Doh!</p>
+        
+            <h3>And cause I also believe the <b>BODY</b> is a good place for beer (see what I did there?!?!?!), here's a Furphy! you know the deal.</h3>
+            
+            <a id="beer" href="https://furphybeer.com.au/agegate/" target="_blank"><img src="23244331_1558897174204864_697218774503026206_n-450x285.jpg" alt="Image of a tin of Furphy"></a>
+            <P>Drink responsibily, don't drink and drive... (can I have a free case now Furphy)</P>
+        </div>
+
+        <div id="Chart within Article">
+            <h3>Below is a chart</h3>
+            <table style="background-color: chartreuse">
+                <tr>
+                    <th></th>
+                    <th scope="col">Pour Up,</th>
+                    <th scope="col">Head Shot,</th>
+                    <th scope="col">Sit Down,</th>
+                    <th scope="col">Stand Up,</th>
+                    <th scope="col">Pass Out,</th>
+                    <th scope="col">Wake Up,</th>
+                    <th scope="col">Faded,</th>
+                    <th scope="col">Faded,</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th scope="row">Drank,</th>
+                    <th scope="row">Drank,</th>
+                    <th scope="row">Drank,</th>
+                    <th scope="row">Drank,</th>
+                    <th scope="row">Drank,</th>
+                    <th scope="row">Drank,</th>
+                    <th scope="row">Drank,</th>
+                    <th scope="row">Drank,</th>
+                </tr>
+            </table>
+            <p>If you recognise that track and want to dance, see a therapist because it's about systemic alcoholism.</p>            
+        </div>
+
+        <div>
+            <h3 id="form">Now because we've drank all the Furphy, let's order some pizza from this embedded pizza selector.</h3>
+
+            <form>
+                <label for="pizza">Select the type of Pizza you'd like to order. <br></label>
+                <select id="pizza" name="pizza">
+                <option value="supreme">Supreme</option>
+                <option value="meatlovers">Meatlovers</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="margherita">Margherita</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="hamcheese">Ham & Cheese</option>
+                <option value="seafood">Seafood Supreme</option>
+                <option value="godfather">Godfather</option>
+                <option value="cheesygarlic">Cheesy Garlic</option>
+                </select>
+                <input type="submit" value="Select.">
+                <p>*disclosure* selection will NOT make pizza appear.</p>
+            </form>
+
+            <h3>Maybe you want to order more than one Pizza, so select from the check boxes below.</h3>
+            <form>
+                <p>Choose your Pizzas.</p>
+                <label for="Pizza">Supreme</label>
+                <input id="Pizza" name="Supreme" type="checkbox" value="Pizza"><br>
+                <label for="Pizza">Meatlovers</label>
+                <input id="Pizza" name="Meatlovers" type="checkbox" value="Pizza"><br>
+                <label for="Pizza">Vegetarian</label>
+                <input id="Pizza" name="Vegetarian" type="checkbox" value="Pizza"><br>
+                <label for="Pizza">Margherita</label>
+                <input id="Pizza" name="Margherita" type="checkbox" value="Pizza"><br>
+                <label for="Pizza">Pepperoni</label>
+                <input id="Pizza" name="Pepperoni" type="checkbox" value="Pizza"><br>
+                <label for="Pizza">Ham & Cheese</label>
+                <input id="Pizza" name="hamcheese" type="checkbox" value="Pizza"><br>
+                <label for="Pizza">Seafood Supreme</label>
+                <input id="Pizza" name="seafood" type="checkbox" value="Pizza"><br>
+                <label for="Pizza">Godfather</label>
+                <input id="Pizza" name="godfather" type="checkbox" value="Pizza"><br>
+                <label for="Pizza">Cheesy Garlic</label>
+                <input id="Pizza" name="cheesygarlic" type="checkbox" value="Pizza"><br>
+            </form>
+
+            <h3>Or maybe you're picky, so why don't you just write it in.</h3>
+            <form>
+                <label for="Pizzacomments">Pizza Order Box</label>
+                <br>
+                <textarea id="Pizzacomments" name="Pizzacomments" rows="6" cols="90"></textarea>
+                <br>
+                <input type="submit" value="Select">
+            </form>
+        </div>
+    </body>
+
+    <footer>
+        <div id="Footer of Article">
+            <h3>This is the footer, placed inside its own division too</h3>
+            <p>If you'd like to be a cool developer like me, don't waste anymore time and visit 
+                <a href="https://coderacademy.edu.au" target="_blank">CoderAcademy</a> to set you on the path to a job you'll actually love!</p>
+                <p>Or if you're an employer wanting to contact me directly, my email address is <b><u>cooper.codes1@gmail.com.</u></b></p>
+                <br>
+                <br>
+                <h3>Coming Soon!</h3>
+                <h3>A complaints box, that sends your complaints to the Phantom Zone.</h3>
+        </div>
+    </footer>
+</html>

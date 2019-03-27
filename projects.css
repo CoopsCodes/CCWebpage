@@ -95,12 +95,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    margin-top: 70px;
 }
+
 .projects {
     display: flex;
+    margin-top: 200px;
     width: 100vw;
-    height: auto;
+    height: 100vh;
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
@@ -108,15 +114,32 @@
 }
 .blog {
     margin: 10px;
+    text-decoration: none;
+    color: #353238;
+}
+.firstHTMLSite {
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+    color: #353238;
+}
+.CSSSite {
+    margin: 10px;
+    text-decoration: none;
+    color: #353238;
 }
 .terminalapp {
     margin: 10px;
+    text-decoration: none;
+    color: #353238;
 }
 .website {
     margin: 10px;
 }
 p {
     margin: 7px;
+    text-decoration: none;
+    color: #353238;
 }
 @media screen and (max-width: 450px) {
     .projects {

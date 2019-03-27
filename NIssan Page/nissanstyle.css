@@ -1,0 +1,1160 @@
+/*GENERAL LAYOUT*/
+
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(234, 216, 238);
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(234, 216, 238);
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(228, 178, 238);
+}
+
+body {
+    background-color: rgb(81, 31, 72);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(81, 31, 72);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 10; /* sets the bar to float over the top of the photo viewers */
+  }
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(228, 178, 238);
+    text-align: centre;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover {
+    background: rgb(228, 178, 238);
+    color: rgb(81, 31, 72);
+}
+
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+
+
+/*GEN ONE*/
+.container { /*the arrows the cycle the main photo*/
+    position: relative;
+
+}
+.mySlides { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+.prev,
+.next { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertext { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-container { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.row:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.column { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demo { /**/
+    opacity: 0.6;
+}
+.active,
+.demo:hover { /**/
+    opacity: 1;
+}
+
+/*GEN TWO*/
+.containerGenTwo { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesGenTwo { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorGenTwo {
+    cursor: pointer;
+}
+.prevGenTwo,
+.nextGenTwo { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextGenTwo { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevGenTwo:hover,
+.nextGenTwo:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextGenTwo { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerGenTwo { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowGenTwo:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnGenTwo { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoGenTwo { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeGenTwo,
+.demoGenTwo:hover { /**/
+    opacity: 1;
+}
+
+/*R32*/
+.containerR32 { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesR32 { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorR32 {
+    cursor: pointer;
+}
+.prevR32,
+.nextR32 { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextR32 { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevR32:hover,
+.nextR32:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextR32 { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerR32 { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowR32:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnR32 { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoR32 { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeR32,
+.demoR32:hover { /**/
+    opacity: 1;
+}
+
+/*R33*/
+.containerR33 { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesR33 { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorR33 {
+    cursor: pointer;
+}
+.prevR33,
+.nextR33 { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextR33 { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevR33:hover,
+.nextR33:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextR33 { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerR33 { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowR33:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnR33 { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoR33 { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeR33,
+.demoR33:hover { /**/
+    opacity: 1;
+}
+
+/*R34*/
+.containerR34 { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesR34 { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorR34 {
+    cursor: pointer;
+}
+.prevR34,
+.nextR34 { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextR34 { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevR34:hover,
+.nextR34:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextR34 { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerR34 { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowR34:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnR34 { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoR34 { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeR34,
+.demoR34:hover { /**/
+    opacity: 1;
+}
+
+/*R35*/
+.containerR35 { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesR35 { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorR35 {
+    cursor: pointer;
+}
+.prevR35,
+.nextR35 { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextR35 { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevR35:hover,
+.nextR35:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextR35 { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerR35 { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowR35:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnR35 { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoR35 { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeR35,
+.demoR35:hover { /**/
+    opacity: 1;
+}
+
+/*GTSR*/
+.containerGTSR { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesGTSR { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorGTSR {
+    cursor: pointer;
+}
+.prevGTSR,
+.nextGTSR { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextGTSR { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevGTSR:hover,
+.nextGTSR:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextGTSR { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerGTSR { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowGTSR:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnGTSR { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoGTSR { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeGTSR,
+.demoGTSR:hover { /**/
+    opacity: 1;
+}
+
+/*GTR*/
+.containerGTR { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesGTR { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorGTR {
+    cursor: pointer;
+}
+.prevGTR,
+.nextGTR { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextGTR { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevGTR:hover,
+.nextGTR:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextGTR { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerGTR { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowGTR:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnGTR { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoGTR { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeGTR,
+.demoGTR:hover { /**/
+    opacity: 1;
+}
+
+/*VSPEC*/
+.containerVSPEC { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesVSPEC { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorVSPEC {
+    cursor: pointer;
+}
+.prevVSPEC,
+.nextVSPEC { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextVSPEC { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevVSPEC:hover,
+.nextVSPEC:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextVSPEC { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerVSPEC { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowVSPEC:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnVSPEC { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoVSPEC { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeVSPEC,
+.demoVSPEC:hover { /**/
+    opacity: 1;
+}
+
+/*400R*/
+.container400R { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlides400R { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursor400R {
+    cursor: pointer;
+}
+.prev400R,
+.next400R { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.next400R { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev400R:hover,
+.next400R:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertext400R { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-container400R { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.row400R:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.column400R { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demo400R { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.active400R,
+.demo400R:hover { /**/
+    opacity: 1;
+}
+
+/*400R*/
+.container400R { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlides400R { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursor400R {
+    cursor: pointer;
+}
+.prev400R,
+.next400R { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.next400R { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev400R:hover,
+.next400R:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertext400R { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-container400R { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.row400R:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.column400R { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demo400R { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.active400R,
+.demo400R:hover { /**/
+    opacity: 1;
+}
+
+/*Autech*/
+.containerAutech { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesAutech { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorAutech {
+    cursor: pointer;
+}
+.prevAutech,
+.nextAutech { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextAutech { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevAutech:hover,
+.nextAutech:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextAutech { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerAutech { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowAutech:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnAutech { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoAutech { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeAutech,
+.demoAutech:hover { /**/
+    opacity: 1;
+}
+
+/*Z-Tune*/
+.containerZtune { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesZtune { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorZtune {
+    cursor: pointer;
+}
+.prevZtune,
+.nextZtune { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextZtune { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevZtune:hover,
+.nextZtune:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextZtune { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerZtune { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowZtune:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnZtune { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoZtune { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeZtune,
+.demoZtune:hover { /**/
+    opacity: 1;
+}
+
+
+/*Nur*/
+.containerNur { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlidesNur { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursorNur {
+    cursor: pointer;
+}
+.prevNur,
+.nextNur { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.nextNur { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prevNur:hover,
+.nextNur:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertextNur { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-containerNur { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.rowNur:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.columnNur { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demoNur { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.activeNur,
+.demoNur:hover { /**/
+    opacity: 1;
+}
+
+/*45*/
+.container45 { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlides45 { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursor45 {
+    cursor: pointer;
+}
+.prev45,
+.next45 { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.next45 { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev45:hover,
+.next45:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertext45 { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-container45 { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.row45:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.column45 { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demo45 { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.active45,
+.demo45:hover { /**/
+    opacity: 1;
+}
+
+/*50*/
+.container50 { /*the arrows the cycle the main photo*/
+    position: relative;
+}
+.mySlides50 { /*main image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.cursor50 {
+    cursor: pointer;
+}
+.prev50,
+.next50 { /*the arrows the cycle the main photo*/
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 60px 50px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.75;
+}
+.next50 { /*next button*/
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev50:hover,
+.next50:hover { /*the arrows the cycle the main photo*/
+    background-color: grey;
+    opacity: 0.4;
+}
+.numbertext50 { /*the number count in the top left of the main image*/
+    color: black;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+} 
+.caption-container50 { /*text box between the main photo and the thumbpics*/
+    text-align: center;
+    padding: 2px 10px;
+    color: greenyellow;
+}
+.row50:after { /**/
+    content: "";
+    display: table;
+    clear: both;
+}
+.column50 { /*the alignment of the thumbnails*/
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 9%;
+}
+.demo50 { /*opacity of the thumbnails*/
+    opacity: 0.6;
+}
+.active50,
+.demo50:hover { /**/
+    opacity: 1;
+}

@@ -194,6 +194,14 @@ body {
       margin-right: auto;
       width: 75%;
 }
+.mariopreso {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      transform: rotate(270deg);
+      width: auto;
+      height: 75vw;
+}
 table#tab1 {
       background-color: rgba(206, 227, 253, 0.705);
       color: rgb(78, 1, 72);
